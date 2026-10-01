@@ -1,0 +1,28 @@
+{
+  "label": "API - employee lookup (after edit)",
+  "capturedAt": "2026-10-01T11:39:37.015Z",
+  "request": {
+    "method": "GET",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=QA731025&limit=50&offset=0"
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "body": {
+      "data": [
+        {
+          "empNumber": 558,
+          "lastName": "AutoTest",
+          "firstName": "Harshit",
+          "middleName": "",
+          "employeeId": "QA731025",
+          "terminationId": null
+        }
+      ],
+      "meta": {
+        "total": 1
+      },
+      "rels": []
+    }
+  }
+}

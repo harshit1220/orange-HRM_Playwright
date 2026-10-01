@@ -1,0 +1,19 @@
+{
+  "label": "API - employee lookup (after delete)",
+  "capturedAt": "2026-10-01T11:39:42.392Z",
+  "request": {
+    "method": "GET",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?nameOrId=QA731025&limit=50&offset=0"
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "body": {
+      "data": [],
+      "meta": {
+        "total": 0
+      },
+      "rels": []
+    }
+  }
+}

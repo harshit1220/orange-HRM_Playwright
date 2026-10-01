@@ -1,0 +1,14 @@
+{
+  "credentials": { "username": "Admin", "password": "admin123" },
+  "employee": {
+    "firstName": "Harshit",
+    "middleName": "",
+    "lastName": "AutoTest",
+    "employeeIdPrefix": "QA",
+    "profilePicture": "test-data/images/profile-picture.png"
+  },
+  "updatedJob": {
+    "jobTitle": "QA Engineer",
+    "employmentStatus": "Full-Time Contract"
+  }
+}

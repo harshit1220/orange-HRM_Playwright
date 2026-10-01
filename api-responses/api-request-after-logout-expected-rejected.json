@@ -1,0 +1,18 @@
+{
+  "label": "API - request after logout (expected rejected)",
+  "capturedAt": "2026-10-01T11:39:45.494Z",
+  "request": {
+    "method": "GET",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees"
+  },
+  "response": {
+    "status": 401,
+    "statusText": "Unauthorized",
+    "body": {
+      "error": {
+        "status": 401,
+        "message": "Session expired"
+      }
+    }
+  }
+}

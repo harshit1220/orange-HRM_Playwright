@@ -1,0 +1,50 @@
+{
+  "label": "API - job details (after edit)",
+  "capturedAt": "2026-10-01T11:39:37.358Z",
+  "request": {
+    "method": "GET",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees/558/job-details"
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "body": {
+      "data": {
+        "empNumber": 558,
+        "joinedDate": null,
+        "jobTitle": {
+          "id": 9,
+          "title": "QA Engineer",
+          "isDeleted": false
+        },
+        "jobSpecificationAttachment": {
+          "id": null,
+          "filename": null
+        },
+        "empStatus": {
+          "id": 2,
+          "name": "Full-Time Contract"
+        },
+        "jobCategory": {
+          "id": null,
+          "name": null
+        },
+        "subunit": {
+          "id": null,
+          "name": null,
+          "unitId": null
+        },
+        "location": {
+          "id": null,
+          "name": null
+        },
+        "employeeTerminationRecord": {
+          "id": null,
+          "date": null
+        }
+      },
+      "meta": [],
+      "rels": []
+    }
+  }
+}
